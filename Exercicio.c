@@ -101,6 +101,8 @@
 		 //Pasta fechada
 		
 		system("pause"); //system conversa com computador, e pause para travar a tela para algo
+		
+		
 	}
 	
 	
@@ -180,6 +182,7 @@ int main ()
 			printf("\t1. Registrar usuário\n\n");
 			printf("\t2. Consultar usuário\n\n");
 			printf("\t3. Excluir usuários\n\n\n"); //fim do menu
+			printf("\t4. Saída do sistema\n\n");
 			printf("Opção:\n\n");
 			
 			scanf("%d", &opcao); //armazenando a escolha de usuário
@@ -198,6 +201,11 @@ int main ()
 				
 				case 3:
 				exclusao();
+				break;
+				
+				case 4:
+				printf("Obrigado e volte sempre!\n");
+				return 0;
 				break;
 				
 				default:
