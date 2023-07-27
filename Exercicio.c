@@ -102,6 +102,24 @@
 		
 		system("pause"); //system conversa com computador, e pause para travar a tela para algo
 		
+		char a='n';
+		
+		printf("\nVocê deseja registrar mais alguém?\n");
+		scanf("%s", &a);
+		
+		if(a=='s')
+		{
+			printf("Sim");
+			scanf("%s", 's');
+			
+		}
+		else
+		{
+			printf("Não");	
+			scanf("%s", 'n');
+			return 0;
+			
+		}
 		
 	}
 	
